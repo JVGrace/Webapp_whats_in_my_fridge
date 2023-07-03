@@ -1,0 +1,120 @@
+.Add-list {
+  display: flex; 
+  align-content: center;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.input-form {
+  display: flex;
+  flex-direction: row;
+  height: 60%;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-form :focus{
+  outline: none;
+  transition: 0.3s;
+}
+
+.input-form :hover{
+  text-decoration: none;
+}
+
+a {
+  font-size: 1.2rem !important;
+}
+
+.text-input{
+  flex: 4;
+  width: 20vw;
+  height: 40px;
+  border-radius: 0;
+  padding: 10px;
+  font-size: 0.8rem;
+  background-color:#f3f3f3;;
+  border-color: #ffffff00;
+}
+
+.text-input:hover{
+  border-radius: 20px;
+  transition: 0.3s;
+  background-color: #fff7ba;
+}
+
+.text-input:focus{
+  outline: none;
+}
+
+
+.catecory-select{
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  flex: 2;
+  width: 20vw;
+  height: 40px;
+  background-color:#f3f3f3;;
+  border-color: #ffffff00;
+}
+
+.catecory-select:hover {
+  background-color: #fff7ba;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.quantity {
+  margin-left: 10px;
+  width: 7vw;
+  height: 40px;
+  background-color:#f3f3f3;;
+  border-color: #ffffff00;
+}
+
+.quantity:hover {
+  background-color: #fff7ba;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.add-shoppinglist{
+  width: 15vw;
+  height: 40px;
+  border: none;
+  background-color: #fdf9d7;
+  text-align: center;
+  vertical-align: center;
+  font-size: 1rem;
+  padding: 5px; 
+  margin-left: 10px;
+  border-radius: 3px;
+}
+
+.add-shoppinglist:hover {
+  background-color: #fff7ba;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.add-to-myfridge{
+  width: 15vw;
+  margin-left: 10px;
+  height: 40px;
+  border: none;
+  background-color: #fdf9d7;
+  text-align: center;
+  font-size: 1rem;
+  padding: 5px;
+  text-align: center;
+  border-radius: 3px;
+  color: #3f454d;
+}
+
+.add-to-myfridge:hover {
+  background-color: #fff7ba;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
